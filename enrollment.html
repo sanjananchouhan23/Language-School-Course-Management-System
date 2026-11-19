@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment | LinguaHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>LinguaHub</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="instructors.html">Instructors</a>
+        <a href="batches.html">Batches</a>
+        <a href="enrollment.html">Enrollment</a>
+        <a href="assessments.html">Assessments</a>
+        <a href="progress.html">Progress</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2 class="section-title">Student Enrollment</h2>
+    <p>Enter student details to demonstrate the course registration process.</p>
+
+    <form action="#" method="get">
+        <label for="student-name">Full Name</label>
+        <input type="text" id="student-name" name="student-name"
+               placeholder="Enter your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone"
+               placeholder="Enter your phone number" required>
+
+        <label for="course">Select Language Course</label>
+        <select id="course" name="course" required>
+            <option value="">Choose a course</option>
+            <option>English</option>
+            <option>French</option>
+            <option>German</option>
+            <option>Spanish</option>
+            <option>Japanese</option>
+            <option>Kannada</option>
+            <option>Malayalam</option>
+        </select>
+
+        <label for="level">Select Level</label>
+        <select id="level" name="level" required>
+            <option value="">Choose your level</option>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+        </select>
+
+        <label for="batch">Preferred Batch</label>
+        <select id="batch" name="batch" required>
+            <option value="">Choose a batch</option>
+            <option>Morning Batch</option>
+            <option>Afternoon Batch</option>
+            <option>Evening Batch</option>
+        </select>
+
+        <label for="message">Additional Information</label>
+        <textarea id="message" name="message" rows="4"
+                  placeholder="Any learning goals or requirements?"></textarea>
+
+        <button type="submit" class="button">Submit Enrollment</button>
+        <button type="reset" class="button">Clear Form</button>
+
+        <p>Demo only: enrollment details are not saved to a database.</p>
+    </form>
+</div>
+
+<footer><p>LinguaHub | CSE326 Project</p></footer>
+</body>
+</html>

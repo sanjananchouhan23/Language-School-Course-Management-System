@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border: 2px solid navy;
+}
+
+/* Other Headings */
+h2 {
+    color: navy;
+    margin-top: 25px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Navigation Links */
+a {
+    color: blue;
+    text-decoration: none;
+    margin: 8px;
+    padding: 5px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid navy;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Form */
+input, select {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: white;
+}
